@@ -1,8 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from "@angular/forms";
 
 //Rutas llamar las rutas APP_ROUTES
 import { APP_ROUTES } from './app.routes';
+
+//Modulos
+import { PagesModule } from './pages/pages.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -19,20 +23,23 @@ import { RegisterComponent } from './login/register.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    BreadcrumbsComponent,
-    NopagefoundComponent,
-    SidebarComponent,
-    DashboardComponent,
-    Graficas1Component,
-    ProgressComponent,
+    //HeaderComponent,
+    //BreadcrumbsComponent,
+    //NopagefoundComponent,
+    //SidebarComponent,
+
+    //DashboardComponent,
+    //Graficas1Component,
+    //ProgressComponent,
     LoginComponent,
-    PagesComponent,
-    RegisterComponent
+    //PagesComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
-    APP_ROUTES
+    APP_ROUTES,
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
