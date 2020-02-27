@@ -15,6 +15,7 @@ import { PagesComponent } from './pages.component';
 import { from } from 'rxjs';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccoutSettingComponent } from './accout-setting/accout-setting.component';
 
 
 
@@ -25,7 +26,8 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
       Graficas1Component,
       PagesComponent,
       IncrementadorComponent,
-      GraficoDonaComponent
+      GraficoDonaComponent,
+      AccoutSettingComponent
     ],
     exports: [
       DashboardComponent,

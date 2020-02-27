@@ -8,6 +8,10 @@ import { APP_ROUTES } from './app.routes';
 //Modulos
 import { PagesModule } from './pages/pages.module';
 
+//Servicios
+//import { SettingService } from './services/settings/setting.service';
+import { ServiceModule } from './services/service.module';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
@@ -39,7 +43,8 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
