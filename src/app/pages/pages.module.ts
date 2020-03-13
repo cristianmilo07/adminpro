@@ -16,6 +16,8 @@ import { from } from 'rxjs';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccoutSettingComponent } from './accout-setting/accout-setting.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -27,7 +29,9 @@ import { AccoutSettingComponent } from './accout-setting/accout-setting.componen
       PagesComponent,
       IncrementadorComponent,
       GraficoDonaComponent,
-      AccoutSettingComponent
+      AccoutSettingComponent,
+      PromesasComponent,
+      RxjsComponent
     ],
     exports: [
       DashboardComponent,
